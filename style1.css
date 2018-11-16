@@ -1,0 +1,202 @@
+ body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background-color: #f0f0f0; /* Цвет фона веб-страницы */
+  color: #333; /* Цвет основного текста */ 
+}
+h1 {
+  color: #0000FF; /* Цвет заголовка */
+  font-size: 26pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+   
+  margin-right: 10px; /* Отступ справа в пикселах */
+  border-left: 1px solid #999; /* Параметры линии слева */
+  border-bottom: 1px solid #999; /* Параметры линии снизу */
+  padding-left: 10px; /* Отступ от линии слева до текста  */
+   
+}
+
+
+
+
+ .container {
+ margin-top: 10px;
+ height: 100px;
+}
+
+
+
+
+.header
+{
+	margin-top: 50px;
+}
+.container{
+	height: 300px;
+}
+.nav    
+{
+
+background: #81F7D8;/* Цвет фона */
+ 
+ padding: 10px;
+ height: 200px;	
+ width:320px; /* Ширина колонки*/ 
+ float:left;
+ border-radius: 2px;
+ position: absolute;
+}
+
+
+
+
+
+.img-bloc {
+margin-top: 30px;	
+ overflow: hidden;
+ position: relative;
+ display: flex;
+ margin-bottom: 30px;
+ justify-content: center;
+ align-items: center;
+}
+.cont-1{
+	height: 200px;
+}
+
+
+.cont-2{
+	height: 200px;
+}
+
+.img-bloc h3 {
+ position: absolute;
+ font-size: 30px;
+ background: rgba(0,0,0, 0.4);
+ color: #ffffff;
+}
+.img-bloc img {
+ width: 100%;
+}
+.cont-4 {
+ height: 100px;
+}
+
+
+
+
+
+.footer-row {
+  padding: 20px 0;
+  border-top: 5px solid #d9d9d9;
+}
+ 
+ footer #left {
+  float: left;
+  width: 40%;
+}
+ 
+footer #social {
+  float: right;
+  width: 60%;
+}
+footer #social img { 
+     /*display: block;*/
+  width: 40px;
+  height: 40px;
+  float: right;
+  
+       /*line-height: 30px;*/
+  border-radius: 70%;
+  margin-left: 30px;
+  text-align: right;
+  font-size: 20px;
+  color: #a1787e;
+  background-color: rgba(20,20,20,0);	
+  
+  /*transform: scale(1);
+  transition: .3s linear;*/
+}
+/*
+.social-icon:hover {
+  transform: scale(1.2);
+  background: #a1787e;
+  color: #fff;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer 
+{ 
+background:#F5D0A9;
+width:100%;
+padding:30px 0 30px 0;
+border: 3px groove #848484;
+display:inline-block;
+
+}
+
+.social  
+{
+width:100%;
+
+justify-content: center;
+   
+} 
+.social a 
+{
+margin-left: 200px;
+}
+.social a:hover 
+{
+ opacity: 0.6;
+}
+*/
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+ .cont-4 {
+  height: 222px;
+ }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+ .cont-4 {
+  height: 100%;
+  font-size:9pt;  
+ }
+ .footer 
+	{
+        
+	   background: #9ea424;
+        height: 30px;
+    }
+
+ 
+}
+
+ 
+ 
+
+ 
+ 
+  
