@@ -20,40 +20,29 @@ p {
    
 }
 
-
-
-
  .container {
  margin-top: 10px;
  height: 100px;
 }
 
-
-
-
 .header
 {
-	margin-top: 50px;
+ margin-top: 50px;
 }
 .container{
-	height: 300px;
+ height: 300px;
 }
 .nav    
 {
 
 background: #81F7D8;/* Цвет фона */
- 
- padding: 10px;
+  padding: 10px;
  height: 200px;	
  width:320px; /* Ширина колонки*/ 
  float:left;
  border-radius: 2px;
  position: absolute;
 }
-
-
-
-
 
 .img-bloc {
 margin-top: 30px;	
@@ -67,7 +56,6 @@ margin-top: 30px;
 .cont-1{
 	height: 200px;
 }
-
 
 .cont-2{
 	height: 200px;
@@ -85,10 +73,6 @@ margin-top: 30px;
 .cont-4 {
  height: 100px;
 }
-
-
-
-
 
 .footer-row {
   padding: 20px 0;
@@ -127,15 +111,6 @@ footer #social img {
   background: #a1787e;
   color: #fff;
 }*/
-
-
-
-
-
-
-
-
-
 
 
 /*
